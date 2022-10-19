@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    padding-top: 5px;
+}
+
+#sport, #game, #animation, #music{
+    border-width: 2px;
+    border-style: dashed;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+#sport{
+    border-color: black;
+}
+
+#game{
+    border-color: burlywood;
+}
+
+#animation{
+    border-color: aquamarine;
+}
+
+#music{
+    border-color: firebrick;
+}
+
+.note{
+    color: red;
+}
