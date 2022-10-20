@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+#content{
+    margin: 10px 0px 10px 10px;
+    padding-left: 10px;
+    width: 98%;
+    border: 1px;
+    border-style: dotted;
+    
+}
+
+#news{
+    margin: 10px 0px 10px 10px;
+    padding-left: 10px;
+    width: 98%;
+    border: 1px;
+    border-color: cadetblue;
+    border-style: double;
+}
+
+#news ul li{
+    padding-top: 10px;
+}

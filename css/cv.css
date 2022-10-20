@@ -1,8 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    overflow: hidden;
+}
+
+
 #personname{
     color: #3faadb;
     font-family: 楷体;
     font-size: 35px;
-
 }
 .pimg{
     width:20px;
@@ -34,9 +48,14 @@ hr{
     border-bottom:none;
 }
 
+.proj{
+    margin: 10px 0px 10px 0px;
+}
+
 .cla{
     margin-bottom: 15px;
 }
+
 #school{
     margin-left: 25%;
 }

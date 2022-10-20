@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to My Page</title>
+    <link rel="stylesheet" href="./css/index.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
 <div id="nav-placeholder"></div>
 
-<p>Hello 大家好</p>
-<p>我是周文博，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<div>
+  <h3>Welcome</h3> 
+  <div id="content">
+  <p>Hello 大家好</p>
+  <p>我是周文博，这是我的个人网站。 </p>
+  <p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+  
+  <ul>
+    <li> <a href="https://space.bilibili.com/85535430">bilibili</a> </li>
+    <li> <a href="https://blog.csdn.net/junkmachine">CSDN</a> </li>
+    <li> <a href="https://www.zhihu.com/people/zwb-29-36">知乎</a> </a></li>
+    <li> <a href="https://github.com/bobozi-cmd">Github</a> </a></li>
+    <li> <a href="https://gitee.com/zhou-wenbo">Gitee</a> </a></li>
+  </ul>
+  </div> 
+</div> 
 
-<ul>
-  <li> <a href="https://space.bilibili.com/85535430">bilibili</a> </li>
-  <li> <a href="https://blog.csdn.net/junkmachine">CSDN</a> </li>
-  <li> <a href="https://www.zhihu.com/people/zwb-29-36">知乎</a> </a></li>
-  <li> <a href="https://github.com/bobozi-cmd">Github</a> </a></li>
-  <li> <a href="https://gitee.com/zhou-wenbo">Gitee</a> </a></li>
-</ul>
+<div>
+
+  <h3>最近动态</h3>
+  <div id="news">
+
+    <ul>
+      <li>
+        <h3>最近对一款编程游戏《Retro gadgets》比较感兴趣，在b站上发了一些教程视频</h3>
+        <a href="https://www.bilibili.com/video/BV1Q84y1B7fj/?spm_id_from=333.999.0.0&vd_source=1bad8694ed86a53871a320af8b44dd6f"><img src="./src/index/retrogadgets.png" alt="retro gadgets" style="width: 40%;"></a>
+      </li>
+      <li>
+        <h3>最近通关了普通难度的《血污：夜之仪式》，用键盘玩的，打的手指关节疼 &#x1F602;</h3>
+        <img src="./src/index/bloodstained.png" alt="血污：夜之仪式" style="width: 40%;">
+      </li>
+      <li>
+        <h3>花半天追完了《赛博朋克：边缘行者》，我最喜欢的角色是丽贝卡，亚当重锤你坏事做尽 &#x1F624;</h3>
+        <img src="./src/index/rebacca.jpg" alt="丽贝卡" style="width: 40%;"><span>by <a href="https://alphacoders.com/author/view/33397">VikingG</a></span>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+
+
 
 <script>
   $(function(){

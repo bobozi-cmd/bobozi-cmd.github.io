@@ -1,6 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
@@ -12,6 +17,7 @@ p{
     border-style: dashed;
     margin: 10px;
     padding-left: 10px;
+    width: 98%;
 }
 
 #sport{
