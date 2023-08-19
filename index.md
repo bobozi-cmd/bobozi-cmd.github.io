@@ -1,8 +1,8 @@
 # Bologs
 Welcome to my home
 
-
-
+### 合集
+[我的像素画学习之路](/learning_pixel)
 
 ---
 ### Reference
