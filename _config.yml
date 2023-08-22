@@ -2,4 +2,18 @@ title: Bologs
 description: This is bobozi's blogs.
 theme: jekyll-theme-hacker
 
-source: ./
+# Where things are
+source: .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir: _data
+includes_dir: _includes
+collections:
+  posts:
+    output: true
+
+# Handling Reading
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
