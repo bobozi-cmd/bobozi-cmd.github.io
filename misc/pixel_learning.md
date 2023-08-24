@@ -45,4 +45,6 @@ permalink: /learning_pixel
 
 
 ---
+[Soul Knight](/soul_knight)
+
 [back](/)
